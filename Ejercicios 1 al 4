@@ -1,0 +1,27 @@
+<script >
+
+        //Primer Ejercicio
+        const caracteres = (cadena = "Hola Mundo") => console.log(cadena.length);
+        caracteres();
+
+        //Segundo Ejercicio
+        const nuevaCadena = (cadena2 = "", hasta=0) => {
+            const nueva_cadena = cadena2.slice(0, hasta);
+            console.log(nueva_cadena);
+        };
+        //en el segundo parametro nos indicara que el final de su longitud de la cadena2 vale 0 hasta un numero negativo en especifico       
+        nuevaCadena("Hola mi nombre es Alexander", -9);
+        //Tercer Ejercicio
+        const functionArray = (caracteres3="", espacio) => {
+            const array = caracteres3.split(espacio);
+            console.log(array);
+        }
+        functionArray("Hola que tal", " ");
+        //Cuarto Ejercicio
+        const textoRepeat = (texto="", repetir=0) => {
+            const texto_repeat = texto.repeat(repetir);
+            console.log(texto_repeat);
+        }
+        textoRepeat("Hola mundo ", 3);
+            
+    </script>
